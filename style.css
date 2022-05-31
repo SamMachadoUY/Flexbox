@@ -1,0 +1,48 @@
+body{
+    background-color: darkseagreen;
+}
+
+.flex-container{
+    display: flex;
+    align-items: stretch;
+    background-color: rgb(37, 134, 102);
+
+    height: 500px;
+    padding: 10px;
+    border: 2px solid black;
+
+}
+
+.flex-container div{
+    background-color: beige;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 90px;
+    font-size: 30px;
+}
+
+p{
+    display: flex;
+    flex-direction: row;
+    flex-direction: row-reverse;
+    flex-direction: column;
+    flex-direction: column-reverse;
+
+    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+
+    justify-content: center;
+    justify-content: start;
+    justify-content: end;
+    justify-content: space-around;
+    justify-content: space-between;
+
+    align-items: flex-start;
+    align-items: flex-end;
+    align-items: stretch;
+    align-items: baseline;
+}
